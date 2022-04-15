@@ -1,0 +1,46 @@
+.card {
+  border-radius: 5px;
+  padding: 30px;
+  display: flex;
+}
+.contentSide {
+  width: 90%;
+}
+.menuSide {
+  width: 10%;
+}
+.cardIconContainer {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.IconContainer {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  opacity: 30%;
+  z-index: 1;
+}
+.cardIcon {
+  z-index: 2;
+  position: absolute;
+}
+@media (min-width: 769px) {
+  .card {
+    height: 220px;
+    padding: 5px;
+  }
+  .contentSide {
+    width: 85%;
+  }
+  .menuSide {
+    width: 15%;
+  }
+}

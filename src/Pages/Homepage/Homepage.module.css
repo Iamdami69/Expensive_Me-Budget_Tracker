@@ -1,0 +1,11 @@
+@media only screen and (min-width: 769px) {
+  .Homehero {
+    display: flex;
+  }
+  .homeHeroCardReportAndChart {
+    width: 70%;
+  }
+  .homeHeroAside {
+    width: 30%;
+  }
+}

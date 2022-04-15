@@ -1,0 +1,74 @@
+.AuthenticationPage {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.small {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.firsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.firsDiv h1 {
+  font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+.AuthenticationForm {
+  width: min(80%, 500px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 5px;
+}
+.authenticationFormChild {
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.AuthenticationFormIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AuthenticationFormInputContainer {
+  flex: 2;
+}
+.AuthenticationFormInputContainer input {
+  width: 100%;
+  background-color: transparent;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+.toggleThemeButtonCOntainer {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.forgotPassword {
+  text-align: right;
+  width: 100%;
+}
+
+.big {
+  flex: 2;
+}

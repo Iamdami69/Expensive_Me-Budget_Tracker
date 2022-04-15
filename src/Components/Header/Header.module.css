@@ -1,0 +1,41 @@
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.button {
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerLastDiv {
+  display: flex;
+  gap: 10px;
+}
+.InputContainer {
+  flex: 2;
+}
+.brand {
+  font-size: clamp(1.3rem, 8vw - 2rem, 2.3rem);
+}
+.searchInput {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  border: none;
+  font-size: 1rem;
+  padding-left: 10px;
+  background: transparent;
+  outline: none;
+}
+.searchInput::placeholder {
+  text-align: center;
+}
